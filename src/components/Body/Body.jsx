@@ -22,18 +22,17 @@ export default function Body() {
       </div>
 
       <div className="flex justify-center">
-      <p className="text-[16px] text-avaliye font-bold mt-[-40%]">خدمات اُیک</p>
+      <p className="text-[16px] text-avaliye font-bold mt-[-30%]" >خدمات اُیک</p>
       </div>
         
 
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-
-        <div></div>
-        <div></div>
-        <div></div>
+      <div className="w-full grid grid-cols-2 place-items-center gap-2 ">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox"></div>
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox"></div>
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox"></div>
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox"></div>
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox"></div>
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox"></div>
 
 
       </div>

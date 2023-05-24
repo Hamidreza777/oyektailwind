@@ -9,6 +9,10 @@ export default {
     },
 
     extend: {
+      boxShadow:{
+        mybox:'0px 0px 10px #aeaeae',
+      }
+,
       colors: {
         avaliye: "#7636ed",
         sanaviye: "#f1ebfd",
