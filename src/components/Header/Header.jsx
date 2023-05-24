@@ -10,9 +10,9 @@ export default function Header() {
       <header className="flex h-[4.875rem] w-full bg-sanaviye items-center justify-center fixed z-50">
         <nav className="flex flex-row items-center justify-between w-[85%] h-full tablet:w-[85%] transition ease-in-out delay-100 max-desktop:justify-between">
       
-        <RxHamburgerMenu className="text-[24px] desktop:hidden max-desktop:flex max-desktop:order-1"/>
+        <RxHamburgerMenu className="text-[26px] desktop:hidden max-desktop:flex max-desktop:order-1"/>
          
-          <img className="h-[56px] max-desktop:order-3 max-desktop:ml-[10%]" src={Logo} alt="" />
+          <img className="h-[36px] max-desktop:order-3 max-desktop:ml-[10%]" src={Logo} alt="" />
 
           <ul className="flex flex-row justify-between w-[40%] h-full items-center max-desktop:hidden">
             <li className=" hover:text-avaliye hover:border-b-[2px] hover:border-avaliye hover:transition ease-in-out delay-100">
@@ -33,16 +33,16 @@ export default function Header() {
           </ul>
 
           <div className="flex  items-center max-desktop:order-2">
-            <HiMagnifyingGlass className="text-[24px]  text-avaliye" />
+            <HiMagnifyingGlass className="text-[22px]  text-avaliye mr-[10px]" />
             <input
               type="text"
-              placeholder="جستجو . . ."
+              placeholder="جستجو ..."
               className="bg-sanaviye focus:border-none focus:outline-none mr-[4px] w-[80px] "
             />
           </div>
 
           <div className="flex flex-row items-center max-desktop:order-4">
-            <IoCallOutline className="transform rotate-[260deg] text-[24px] text-avaliye" />
+            <IoCallOutline className="transform rotate-[260deg] text-[22px] text-avaliye" />
             <a href="tel:02691010710">02691010710</a>
           </div>
 
