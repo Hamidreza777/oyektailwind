@@ -7,7 +7,7 @@ import { Link, Outlet } from "react-router-dom";
 export default function Header() {
   return (
     <>
-      <header className="flex h-[4.875rem] w-full bg-sanaviye items-center justify-center fixed">
+      <header className="flex h-[4.875rem] w-full bg-sanaviye items-center justify-center fixed z-50">
         <nav className="flex flex-row items-center justify-between w-[85%] h-full tablet:w-[85%] transition ease-in-out delay-100 max-desktop:justify-between">
       
         <RxHamburgerMenu className="text-[24px] desktop:hidden max-desktop:flex max-desktop:order-1"/>

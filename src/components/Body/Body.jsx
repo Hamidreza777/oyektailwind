@@ -151,14 +151,14 @@ export default function Body() {
 
 <p className="text-avaliye font-bold text-[16px]  mt-[96px]  flex justify-center">اعضای تیم اُیک</p>
 
-{/* <div className="h-[420px] w-full flex flex-row-reverse">
-<div className="bg-sanaviye w-[70px] h-[119px] mt-[30%] ml-[24px]">
+ <div className="h-[420px] w-full flex flex-row-reverse ">
+<div className="bg-sanaviye w-[70px] h-[119px] mt-[30%] ml-[24px] rounded-[5px] mtablet:mt-[60%] mtablet:w-[358px] mtablet:h-[200px] desktop:mt-[50%] desktopl:mt-[3 5%] ">
 
 </div>
-<img className="h-[148px] w-[246px] z-30 mt-[7%] ml-[-7%]" src={team} alt="" />
+<img className="h-[148px] w-[246px] z-10 mt-[7%] ml-[-7%] mtablet:mt-[20%] mtablet:mr-[10%] rounded-[5px] mtablet:h-[386px] mtablet:w-[542px] mtablet:z-30  desktopl:w-[660px] desktopl:h-[300px] " src={team} alt="" />
 
 
-<div className="bg-avaliye w-[242px] h-[267px] z-50 mt-[35%] ml-[-45%] mtablet:hidden">
+<div className="bg-avaliye w-[242px] h-[267px] z-50 mt-[35%] ml-[-45%]  rounded-[5px]  leading-[21.88px] p-[10px] mtablet:w-[500px] mtablet:h-[300px] mtablet:mt-[60%] mtablet:ml-[-30%] desktop:mt-[50%] desktopl:mt-[35%] desktopl:w-[700px] desktopl:h-[200px] ">
 
 <p className="text-white font-bold text-[14px] mt-[16px]">
 همه اعضای تیم ما حرفه ایی هستند
@@ -174,7 +174,7 @@ export default function Body() {
 
 </div>
 
-</div>  */}
+</div> 
 
     </>
   );
