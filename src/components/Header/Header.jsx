@@ -43,7 +43,7 @@ export default function Header() {
 
           <div className="flex flex-row items-center max-desktop:order-4">
             <IoCallOutline className="transform rotate-[260deg] text-[22px] text-avaliye" />
-            <a href="tel:02691010710">02691010710</a>
+            <a href="tel:02691010710"  className="flex flex-row-reverse" >۷۱۰ ۱۰ ۹۱۰ ۰۲۶</a>
           </div>
 
 
