@@ -4,6 +4,9 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 import Logo from "../../assets/pic/logo2.png";
 import { Link, Outlet } from "react-router-dom";
+
+
+
 export default function Header() {
   return (
     <>

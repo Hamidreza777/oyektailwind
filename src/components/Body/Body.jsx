@@ -16,13 +16,11 @@ import oreng from '../../assets/pic/oreng.png';
 
 import shop from '../../assets/pic/shop.png';
 import componi from '../../assets/pic/componi.png';
-import web from '../../assets/pic/Webapp.png'
-
-
-
-
-
-
+import web from '../../assets/pic/Webapp.png';
+import sard from '../../assets/pic/sard.png';
+import kavian from '../../assets/pic/kavian.png';
+import car from '../../assets/pic/car.png';
+import amoozesh from '../../assets/pic/amoozesh.png';
 
 
 
@@ -97,11 +95,11 @@ export default function Body() {
 <div className=" w-full h-[450px]  flex justify-around items-center " >
 
 <div className=" h-[250px] w-[322px] text-black ">
-<p className=" font-bold text-[24px] max-mobile:mr-[40%] ">که هستیم؟</p>
+<p className=" font-bold text-[24px] max-mobile:mr-[45%] ">که هستیم؟</p>
 
-<p className="mt-[24px] text-[16px] w-[327px] h-[155px]   max-mobile:mt-[40%] max-mobile:mr-[40%] leading-[25px] ">
+<p className="mt-[24px] text-[16px] w-[327px] h-[155px]   max-mobile:mt-[40%] max-mobile:mr-[45%] leading-[25px] ">
 
-امروزه بیش تر کسب و کار ها اینترنتی شده است اگر شما همچنان تردید دارید به راه اندازی کسب و کار اینترنتی گروه پشتیبانی اُ یک درخدمت شما است تا بهترین راهنمایی را به شما انجام دهد . گروه اُ یک ۰ تا ۱۰۰ سایت شمارو (پشتیبانی ، طراحی سایت ، سئو سایت ، ui ux سایت و ...) انجام می‌دهد و همچنین با داشتن نمونه کار های متعدد باعث رضایت بسیاری از مراجعه کنندگان بوده است.
+امروزه بیش تر کسب و کار ها اینترنتی شده است اگر شما همچنان تردید دارید به راه اندازی کسب و کار اینترنتی گروه پشتیبانی اُ یک درخدمت شما است تا بهترین راهنمایی را به شما انجام دهد . گروه اُ یک ۰ تا ۱۰۰ سایت شما را (پشتیبانی ، طراحی سایت ، سئو سایت ، UI & UX سایت و ...) انجام می‌دهد و همچنین با داشتن نمونه کار های متعدد باعث رضایت بسیاری از مراجعه کنندگان بوده است.
 
 </p>
 
@@ -359,6 +357,48 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 
 
 <p className="  mt-[100px]  text-avaliye font-bold text-[24px]  flex justify-center  " >نمونه کار های اُیک</p>
+
+
+<div className="w-[85%] max-mtablet:h-[270px]  mx-auto  flex   justify-between mt-[64px]">
+<div className="w-[500px] h-full mx-auto  max-desktopl:w-[300px] max-mtablet:h-[270px] "  >
+
+<img src={sard} alt="" className="w-[500px] h-full max-desktopl:w-[300px] max-mtablet:h-[270px]  " />
+
+
+</div>
+<div className=" w-[500px] h-full mx-auto max-desktopl:w-[300px] max-mtablet:h-[270px]   "  >
+
+<img src={kavian} alt="" className="w-full h-full max-desktopl:w-[300px] max-mtablet:h-[270px]   " />
+
+</div>
+
+</div>
+
+<div className="mx-auto w-[64%] h-[502] mt-[10px] ">
+<img src={car} alt="" className="mx-auto w-full h-full  " />
+
+
+</div>
+
+<div className="w-[85%]  flex mx-auto justify-between  mt-[10px] ">
+
+
+<div className="w-[30%] h-[502px] mx-auto max-mtablet:h-[165px]   ">  
+<img src={amoozesh} alt="" className="w-full h-full max-mtablet:h-[165px]   "  />
+</div>
+
+
+
+<div className="w-[30%] h-[502px] mx-auto  max-mtablet:h-[165px]  "> 
+<img src={amoozesh} alt="" className="w-full h-full  max-mtablet:h-[165px]  "  /></div>
+
+</div>
+
+
+
+
+
+
 
 
 

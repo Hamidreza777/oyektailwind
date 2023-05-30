@@ -9,12 +9,14 @@ import Call from "./components/Call/Call.jsx";
 import About from "./components/About/About.jsx";
 import Body from "./components/Body/Body.jsx";
 
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="/" element={<Body/>}/>
+     
           <Route path="Khadamat" element={<Khadamat />} />
           <Route path="Amoozesh" element={<Amoozesh />} />
           <Route path="Call" element={<Call />} />
