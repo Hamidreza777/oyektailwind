@@ -9,7 +9,7 @@ const Footer = () => {
     return (
       <>
       
-<div className='  bg-sanaviye h-[500px] flex flex-wrap rounded-tr-[50%] rounded-tl-[50%] max-desktop:h-[750px] max-mtablet:h-[850px] max-mtablet:rounded-tl-[300px] max-mtablet:rounded-tr-[300px]  '  >
+<div className=' mt-[100px]  bg-sanaviye h-[500px] flex flex-wrap rounded-tr-[50%] rounded-tl-[50%] max-desktop:h-[750px] max-mtablet:h-[850px] max-mtablet:rounded-tl-[300px] max-mtablet:rounded-tr-[300px]  '  >
 
 <div className='   flex flex-wrap w-[85%] h-[250px] mx-auto justify-between mt-[15%] '>
 
@@ -20,8 +20,16 @@ const Footer = () => {
 <div className='w-[400px] h-[240px] mx-auto max-desktopl:w-[250px]  '>
 <img src={logo} alt="" className='h-[56px] mx-auto '  />
 
-<p className='mr-[24px] font-[400px]  text-[14px] p-[5%] ' >
-لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون سطرآنچنان که لازم است، و برای شرایط تکنولوژی مور نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+<p className='mr-[24px] font-[400px]  text-[14px] p-[5%] '  > 
+<pre className=' font-bold  text-[16px]' >
+  تخصص   تجربه   کیفیت
+<br/>
+<br />
+  گروه نرم افزاری OYEK
+
+</pre>
+
+
 
 </p>
 

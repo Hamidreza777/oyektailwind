@@ -17,10 +17,17 @@ import oreng from '../../assets/pic/oreng.png';
 import shop from '../../assets/pic/shop.png';
 import componi from '../../assets/pic/componi.png';
 import web from '../../assets/pic/Webapp.png';
+
 import sard from '../../assets/pic/sard.png';
-import kavian from '../../assets/pic/kavian.png';
-import car from '../../assets/pic/car.png';
+import khavian from '../../assets/pic/khavian.png';
 import amoozesh from '../../assets/pic/amoozesh.png';
+import sard2 from '../../assets/pic/sard2.png';
+import sard3 from '../../assets/pic/sard3.png';
+
+import { Link} from "react-router-dom";
+
+import { HiOutlineArrowSmallLeft } from "react-icons/hi2";
+
 
 
 
@@ -68,9 +75,9 @@ export default function Body() {
 <img  className="h-[72px] w-[72px]" src={webapp} alt="" />
 <p className="text-[14px] font-bold">وب اپلیکشن</p>
         </div>
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-23%]">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-23%]  ">
 
-<img  className="h-[72px] w-[72px]" src={mohtava} alt="" />
+<img  className="h-[72px] w-[72px]   " src={mohtava} alt="" />
 <p className="text-[14px] font-bold">تولید محتوا</p>
         </div>
         <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-13%]">
@@ -92,14 +99,14 @@ export default function Body() {
 
 
 
-<div className=" w-full h-[450px]  flex justify-around items-center " >
+<div className=" w-[85%] h-[450px] mx-auto  flex justify-between items-center  " >
 
 <div className=" h-[250px] w-[322px] text-black ">
-<p className=" font-bold text-[24px] max-mobile:mr-[45%] ">که هستیم؟</p>
+<p className=" font-bold text-[24px]   ">که هستیم؟</p>
 
-<p className="mt-[24px] text-[16px] w-[327px] h-[155px]   max-mobile:mt-[40%] max-mobile:mr-[45%] leading-[25px] ">
+<p className="mt-[24px] text-[16px] w-[327px] h-[155px]   max-mobile:mt-[40%]  leading-[25px] max-desktop:w-[290px] max-mtablet:w-[350px]     ">
 
-امروزه بیش تر کسب و کار ها اینترنتی شده است اگر شما همچنان تردید دارید به راه اندازی کسب و کار اینترنتی گروه پشتیبانی اُ یک درخدمت شما است تا بهترین راهنمایی را به شما انجام دهد . گروه اُ یک ۰ تا ۱۰۰ سایت شما را (پشتیبانی ، طراحی سایت ، سئو سایت ، UI & UX سایت و ...) انجام می‌دهد و همچنین با داشتن نمونه کار های متعدد باعث رضایت بسیاری از مراجعه کنندگان بوده است.
+امروزه بیش تر کسب و کار ها اینترنتی شده است اگر شما همچنان تردید دارید به راه اندازی کسب و کار اینترنتی، گروه پشتیبانی اُیک درخدمت شما است، تا بهترین راهنمایی را به شما ارائه نماید.<br/> گروه اُیک با در برداشتن بروزترین اطلاعات و بهترین متخصصان، سایت شما را  طراحی، سئو  ، UI & UX  وپشتیبانی می نماید.  همچنین با داشتن نمونه کارهای متعدد باعث رضایت مشتریان می گردد.
 
 </p>
 
@@ -107,7 +114,7 @@ export default function Body() {
 
 </div>
 
-<img src={about} alt=""  className=" h-[354px] w-[355px]  max-mobile:w-[192px] max-mobile:h-[165px] flex max-mobile:mt-[-50%] max-mobile:ml-[35%]"/>
+<img src={about} alt=""  className=" h-[354px] w-[355px] max-mtablet:h-[190px] max-mtablet:mt-[-60%] max-mtablet:mr-[-45%] max-desktop:mr-[15%]  "/>
 
 
 
@@ -220,7 +227,7 @@ export default function Body() {
 
 <img src={shop } alt="" className="absolute  w-[72px] h-[72px]  mt-[1%] mr-[-10%] max-desktop:ml-[9%] max-desktop:mt-[3%]  max-mtablet:mr-[-20%] "   />
 <p className=" absolute w-[177px] h-[86px]  text-[14px] font-normal mt-[11%] max-desktop:mt-[20%]  max-mtablet:mt-[35%]  ">
-در اینجا یک توضیح کوتاه نوشته می شوددر اینجا یک توضیح کوتاه نوشته می شود در اینجا یک توضیح کوتاه نوشته می شود
+طراحی فروشگاه اقدامی تخصصی است که با بکارگیری UI&UX باعث جذب مخاطبان و انتخال شما به عنوان بهترین است.
 </p>
 
 
@@ -235,7 +242,10 @@ export default function Body() {
 <p className="absolute text-[14px] font-bold  ml-[-8%] mt-[3%]  max-desktop:mt-[7%] max-mtablet:mr-[15%]  ">شرکتی</p>
 
 <p className=" absolute w-[177px] h-[86px] text-[14px] font-normal mt-[11%] max-desktop:mt-[20%]  max-mtablet:mt-[35%]    ">
-در اینجا یک توضیح کوتاه نوشته می شوددر اینجا یک توضیح کوتاه نوشته می شود در اینجا یک توضیح کوتاه نوشته می شود
+گروه  oyek می تواند همراهی مناسب برای حضور فعال و قدرتمند شما در فضای رقابتی باشد.
+
+
+
 </p>
 
 
@@ -258,7 +268,7 @@ export default function Body() {
 
 
 <p className=" absolute w-[177px] h-[86px] text-[14px] font-normal mt-[11%] max-desktop:mt-[20%] max-mtablet:mt-[35%]   ">
-در اینجا یک توضیح کوتاه نوشته می شوددر اینجا یک توضیح کوتاه نوشته می شود در اینجا یک توضیح کوتاه نوشته می شود
+        این برنامه نیازی به نصب ندارد و سریع از طریق مرورگر در اختیار کاربر قرار می گیرد و با توجه به در خواست شما طراحی می شود.
 </p>
 
 
@@ -276,14 +286,14 @@ export default function Body() {
 
 
 <div className="w-full h-[760px]  flex flex-wrap justify-between flex-row-reverse  ">
-<div className=" relative  w-[60%] h-[750px] max-mtablet:h-[400px]  flex top-[16px] " >
+<div className=" relative  w-[60%] h-[750px] max-mtablet:h-[400px]  flex top-[16px]  " >
 {/* avali */}
 <div className="absolute w-[319px] h-[176px] bg-white  left-40 z-20 top-[70%] 
 max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] max-mtablet:top-[70%] shadow-mybox p-[15px] ">
 
 <p className="font-bold text-[24px] text-black   max-mtablet:text-[14px] ">پشتیبانی سریع</p>
 
-<p className="font-normal text-[16px]  leading-[25px] max-mtablet:text-[14px] ">در اینجا یک توضیح کوتاه نوشته می شوددر اینجا یک توضیح کوتاه نوشته می شود در اینجا یک توضیح کوتاه نوشته می شود</p>
+<p className="font-normal text-[16px]  leading-[25px] max-mtablet:text-[14px] ">یکی از نکات موفقیت در هر فضا رقابتی ، پاسخگویی است که پشتیبانی قوی یکی از  افتخارات oyek است.</p>
 
 
 
@@ -297,7 +307,7 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 <div className="absolute w-[319px] h-[176px] bg-white  left-60 z-20 top-[40%] max-mtablet:w-[282px] max-mtablet:h-[117px]  max-mtablet:left-20 max-mtablet:top-[35%] shadow-mybox rounded-[5px]  p-[15px] ">
 <p className="font-bold text-[24px] text-black  max-mtablet:text-[14px] ">تیم حرفه ایی</p>
 
-<p className="font-normal text-[16px] leading-[25px] max-mtablet:text-[14px] ">در اینجا یک توضیح کوتاه نوشته می شوددر اینجا یک توضیح کوتاه نوشته می شود در اینجا یک توضیح کوتاه نوشته می شود</p>
+<p className="font-normal text-[16px] leading-[25px] max-mtablet:text-[14px] ">مهم ترین نکته ی موجود در یک شرکت طراحی سایت ،تیم متخصص با تجربه و اطلاعات بروز آن است.</p>
 
 
 </div>
@@ -309,7 +319,7 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 
 <p className="font-bold text-[24px] text-black   max-mtablet:text-[14px]">قیمت های مقرون به صرفه</p>
 
-<p className="font-normal text-[16px]  leading-[25px] max-mtablet:text-[14px]  ">در اینجا یک توضیح کوتاه نوشته می شوددر اینجا یک توضیح کوتاه نوشته می شود در اینجا یک توضیح کوتاه نوشته می شود</p>
+<p className="font-normal text-[16px]  leading-[25px] max-mtablet:text-[14px]  ">هزینه های طراحی سایت بسته به نیاز شما طبقه بندی شده و انتخاب هر پلن با توجه به سرمایه و  کسب و کارتان امکان پذیر است. </p>
 
 </div>
 
@@ -338,12 +348,10 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 
 
 
-<div className=" relative  w-[550px] h-[760px] flex  max-desktopl:w-[400px] max-desktop:w-[100%] max-desktop:h-[230px] ">
+<div className=" relative  w-[550px] h-[760px] flex mx-auto  max-desktopl:w-[400px] max-desktop:w-[90%] max-desktop:h-[230px]  max-mtablet:right-0  ">
 
-<p className=" absolute w-[450px] h-[326px] font-normal text-[16px] top-[40%] right-[10%]  max-desktopl:w-[350px]  max-desktopl:top-[35%] max-desktop:top-[5%] max-desktop:w-[90%] max-desktop:right-[5%] leading-[25px] " >
-
-لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای
-
+<p className=" absolute w-[450px] h-[326px] font-normal text-[16px] top-[40%]   max-desktopl:w-[300px] max-desktopl:right-20  max-desktopl:top-[35%] max-desktop:top-[5%] max-desktop:w-[70%] max-desktop:h-[200px]    leading-[25px]  max-desktop:right-14  max-mtablet:w-[100%] max-mtablet:right-2  " >
+از آنجا که طراحی سایت با استفاده از روشها و فنون متفاوتی انجام می شود نکات قابل تو جهی که در میزان دانش و تجارت حرفه ای در زمینه های گوناگون  <br/> web desing ، کیفیت پیاده سازی مطالب ،قابلیت انعطاف پذیری وب سایت، زمان تحویل پروژه، بررسی محتوای قابل اجرا ،سئو تخصصی ونحوه پشتیبانی  پروژه وجود دارد، باعث تفاوت در نتیجه ی کار طراحان oyek خواهد بود.
 
 </p>
 
@@ -356,46 +364,85 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 </div>
 
 
-<p className="  mt-[100px]  text-avaliye font-bold text-[24px]  flex justify-center  " >نمونه کار های اُیک</p>
+<p className="  mt-[70px]  text-avaliye font-bold text-[24px]  flex justify-center  " >نمونه کار های اُیک</p>
 
 
-<div className="w-[85%] max-mtablet:h-[270px]  mx-auto  flex   justify-between mt-[64px]">
-<div className="w-[500px] h-full mx-auto  max-desktopl:w-[300px] max-mtablet:h-[270px] "  >
+<div className="w-[95%]  mx-auto flex
+justify-between gap-3 mt-[56px] "   >
 
-<img src={sard} alt="" className="w-[500px] h-full max-desktopl:w-[300px] max-mtablet:h-[270px]  " />
-
-
-</div>
-<div className=" w-[500px] h-full mx-auto max-desktopl:w-[300px] max-mtablet:h-[270px]   "  >
-
-<img src={kavian} alt="" className="w-full h-full max-desktopl:w-[300px] max-mtablet:h-[270px]   " />
-
-</div>
-
-</div>
-
-<div className="mx-auto w-[64%] h-[502] mt-[10px] ">
-<img src={car} alt="" className="mx-auto w-full h-full  " />
+{/* avali */}
+<div>
+<img src={sard} alt="" />
 
 
 </div>
 
-<div className="w-[85%]  flex mx-auto justify-between  mt-[10px] ">
+{/* domvomi */}
 
+<div>
 
-<div className="w-[30%] h-[502px] mx-auto max-mtablet:h-[165px]   ">  
-<img src={amoozesh} alt="" className="w-full h-full max-mtablet:h-[165px]   "  />
-</div>
-
-
-
-<div className="w-[30%] h-[502px] mx-auto  max-mtablet:h-[165px]  "> 
-<img src={amoozesh} alt="" className="w-full h-full  max-mtablet:h-[165px]  "  /></div>
+<img src={amoozesh} alt="" />
 
 </div>
 
 
 
+{/* sevomi */}
+
+<div>
+
+<img src={khavian} alt="" className="w-[338px]  " />
+
+
+</div>
+
+
+
+
+
+</div>
+
+<div className="w-[95%]  mx-auto flex
+justify-between gap-3 mt-[7px] "   >
+
+<div>
+<img src={sard2} alt="" />
+
+
+</div>
+
+<div>
+<img src={sard3} alt="" />
+
+</div>
+
+
+
+
+</div>
+
+<ul>
+<li  >
+
+<Link to="/Khadamat" >
+<button className="w-[198px] h-[38px] bg-avaliye mx-auto flex mt-[56px] rounded-[5px] items-center p-[8px]  ">
+
+<p className="text-[14px] text-white font-normal   ">
+
+مشاهده نمونه کارهای بیشتر 
+</p>
+
+<HiOutlineArrowSmallLeft className=" text-[40px] text-white font-normal w-[20px] "   />
+
+</button>
+
+</Link>
+
+
+
+</li>
+
+</ul>
 
 
 
