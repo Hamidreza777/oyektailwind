@@ -4,10 +4,17 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 import Logo from "../../assets/pic/logo2.png";
 import { Link, Outlet } from "react-router-dom";
+import { useState } from "react";
 
 
 
 export default function Header() {
+const[Menu,setMenu]=useState("hidden")
+
+
+
+
+
   return (
     <>
       <header className="flex h-[4.875rem] w-full bg-sanaviye items-center justify-center fixed z-50">
@@ -50,12 +57,46 @@ export default function Header() {
           </div>
 
 
-
-    
+          
 
         </nav>
+  
+    
+
+        
+   
+
       </header>
+
+<div className="w-full h-[324px] z-50 bg-white   hidden max-desktop:block   "  >
+
+<ul className="pt-[25%]  h-full items-center mr-[5%] ">
+            <li className=" w-[30%]  hover:text-avaliye hover:border-b-[2px] hover:border-avaliye hover:transition ease-in-out delay-100">
+              <Link to="/">صفحه اصلی</Link>
+            </li>
+            <li className="w-[20%] mt-[16px]   hover:text-avaliye hover:border-b-[2px] hover:border-avaliye hover:transition ease-in-out delay-100">
+              <Link to="/Khadamat">خدمات ما</Link>
+            </li>
+            <li className="w-[20%] mt-[16px]   hover:text-avaliye hover:border-b-[2px] hover:border-avaliye hover:transition ease-in-out delay-100">
+              <Link to="/Amoozesh">آموزش</Link>
+            </li>
+            <li className="w-[20%] mt-[16px]   hover:text-avaliye hover:border-b-[2px] hover:border-avaliye hover:transition ease-in-out delay-100">
+              <Link to="/Call">تماس با ما</Link>
+            </li>
+            <li className="w-[20%] mt-[16px]   hover:text-avaliye hover:border-b-[2px] hover:border-avaliye hover:transition ease-in-out delay-100">
+              <Link to="/About">درباره ما</Link>
+            </li>
+          </ul>
+
+
+</div>
+
       <Outlet />
+
+  
+
+
+
     </>
   );
 }

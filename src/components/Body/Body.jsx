@@ -62,33 +62,62 @@ export default function Body() {
       <div className="w-[85%] mx-auto grid grid-cols-2 place-items-center gap-2 mt-[-18%] desktop:flex desktop:justify-between desktop:mt-[-13%] ">
         <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox  bg-white grid place-items-center">
 <img className="h-[72px] w-[72px]" src={dising} alt="" />
+
+
+<Link to="/Khadamat">
 <p className="text-[14px] font-bold">طراحی سایت</p>
+
+</Link>
+
 
         </div>
         <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-13%]">
 
 <img className="h-[72px] w-[72px]" src={ui} alt="" />
-<p className="text-[14px] font-bold ">رابط و تجربه کاربری</p>
+
+
+
+              <Link to="/Khadamat"> <p className="text-[14px] font-bold ">رابط و تجربه کاربری</p> </Link>
+      
+
+
         </div>
         <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-23%]">
 
 <img  className="h-[72px] w-[72px]" src={webapp} alt="" />
-<p className="text-[14px] font-bold">وب اپلیکشن</p>
+
+
+<Link to="/Khadamat"> <p className="text-[14px] font-bold">وب اپلیکشن</p> </Link>
+
+
+
+
         </div>
         <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-23%]  ">
 
 <img  className="h-[72px] w-[72px]   " src={mohtava} alt="" />
-<p className="text-[14px] font-bold">تولید محتوا</p>
+
+
+<Link to="/Khadamat"><p className="text-[14px] font-bold">تولید محتوا</p> </Link>
+
+
         </div>
         <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-13%]">
 
 <img  className="h-[72px] w-[72px]" src={ads} alt="" />
-<p className="text-[14px] font-bold">تبلیغات گوگل </p>
+
+
+<Link to="/Khadamat"><p className="text-[14px] font-bold">تبلیغات گوگل </p></Link>
+
+
         </div>
         <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center">
 
 <img  className="h-[72px] w-[72px]" src={seo} alt="" />
-<p className="text-[14px] font-bold">سئو</p>
+
+
+<Link to="/Khadamat"> <p className="text-[14px] font-bold">سئو</p> </Link>
+
         </div>
 
 
@@ -364,7 +393,7 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 </div>
 
 
-<p className="  mt-[70px]  text-avaliye font-bold text-[24px]  flex justify-center  " >نمونه کار های اُیک</p>
+<p className="  mt-[70px]  text-avaliye font-bold text-[24px]  flex justify-center  " >برخی از نمونه کار های اُیک</p>
 
 
 <div className="w-[95%]  mx-auto flex

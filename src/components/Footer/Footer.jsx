@@ -17,7 +17,7 @@ const Footer = () => {
 {/* avali */}
 
 
-<div className='w-[400px] h-[240px] mx-auto max-desktopl:w-[250px]  '>
+<div className='w-[400px] h-[140px] mx-auto max-desktopl:w-[250px]  '>
 <img src={logo} alt="" className='h-[56px] mx-auto '  />
 
 <p className='mr-[24px] font-[400px]  text-[14px] p-[5%] '  > 
@@ -39,7 +39,6 @@ const Footer = () => {
 {/* dovomi */}
 
 <div className='w-[400px] h-[240px]  mx-auto max-desktopl:w-[250px] max-desktop:mt-[10%]  '>
-<p className='font-bold text-[16px] text-avaliye mt-[4%] mr-[10%] ' >تماس باما</p>
 
 
 <div className='flex items-center mt-[39px]  '> 
