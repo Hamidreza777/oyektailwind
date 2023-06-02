@@ -9,7 +9,7 @@ import { useState } from "react";
 
 
 export default function Header() {
-const[Menu,setMenu]=useState("hidden")
+const [Menu,setMenu]=useState("hidden");
 
 
 
@@ -17,11 +17,13 @@ const[Menu,setMenu]=useState("hidden")
 
   return (
     <>
-      <header className="flex h-[4.875rem] w-full bg-sanaviye items-center justify-center fixed z-50">
+      <header className="flex h-[4.875rem] w-full bg-sanaviye/30 items-center justify-center fixed z-50 backdrop-blur-md">
         <nav className="flex flex-row items-center justify-between w-[85%] h-full tablet:w-[85%] transition ease-in-out delay-100 max-desktop:justify-between">
       
         <RxHamburgerMenu className="text-[26px] desktop:hidden max-desktop:flex max-desktop:order-1"/>
-         
+    
+ 
+     
           <img className="h-[36px] max-desktop:order-3 max-desktop:ml-[10%]" src={Logo} alt="" />
 
           <ul className="flex flex-row justify-between w-[40%] h-full items-center max-desktop:hidden">
@@ -47,7 +49,7 @@ const[Menu,setMenu]=useState("hidden")
             <input
               type="text"
               placeholder="جستجو ..."
-              className="bg-sanaviye focus:border-none focus:outline-none mr-[4px] w-[80px] "
+              className=" bg-sanaviye/30 backdrop-blur-md focus:border-none focus:outline-none mr-[4px] w-[80px] "
             />
           </div>
 

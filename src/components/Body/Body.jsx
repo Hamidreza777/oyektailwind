@@ -71,7 +71,7 @@ export default function Body() {
 
 
         </div>
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-13%]">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white/30 backdrop-blur-md grid place-items-center desktop:mb-[-13%]">
 
 <img className="h-[72px] w-[72px]" src={ui} alt="" />
 
@@ -82,7 +82,7 @@ export default function Body() {
 
 
         </div>
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-23%]">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white/30 backdrop-blur-md grid place-items-center desktop:mb-[-23%]">
 
 <img  className="h-[72px] w-[72px]" src={webapp} alt="" />
 
@@ -208,7 +208,7 @@ export default function Body() {
 
 
 
-<img src={team} alt="" className=" absolute w-[50%] h-[386px] right-[40%] max-desktop:right-[30%] max-mtablet:w-[80%] max-mtablet:h-[200px] max-mtablet:right-[10%] " />
+<img src={team} alt="" className=" absolute w-[50%] h-[386px] right-[40%] max-desktop:right-[30%] max-mtablet:w-[80%] max-mtablet:h-[200px] max-mtablet:right-[10%] backdrop-blur-md" />
 
 
 
@@ -216,13 +216,13 @@ export default function Body() {
 
 
 
-<div className=" absolute  w-[47%] h-[237px] bg-avaliye  rounded-[5px] top-[30%] max-desktop:h-[300px] max-desktop:top-[40%] max-mtablet:w-[70%] max-mtablet:h-[280px]   ">
+<div className=" absolute  w-[47%] h-[237px] bg-avaliye/30 backdrop-blur-md  rounded-[5px] top-[30%] max-desktop:h-[300px] max-desktop:top-[40%] max-mtablet:w-[70%] max-mtablet:h-[280px]   ">
 
-<p className="text-white text-[24px] font-bold  mt-[16px]  pr-[15%]   max-mtablet:text-[14px] max-mtablet:pr-[5%] ">
+<p className="text-purple-950 text-[24px] font-bold  mt-[16px]  pr-[15%]   max-mtablet:text-[14px] max-mtablet:pr-[5%] ">
 همه اعضای تیم ما حرفه ایی هستند
 </p>
 
-<p className="w-[90%] h-[113px] text-[16px] font-bold text-white pr-[15%] mt-[16px]  max-mtablet:text-[14px]  max-mtablet:pr-[5%]  leading-[25px]  ">
+<p className="w-[90%] h-[113px] text-[16px] font-bold text-purple-950 pr-[15%] mt-[16px]  max-mtablet:text-[14px]  max-mtablet:pr-[5%]  leading-[25px]  ">
 اکنون همکاران oyekدر زمینه طراحی وب سایت و سئو رابط و تجربه کاربری،وب اپلیکشن، تولید محتوا و تبلیغات گوگل و همچنین ارائه راهکارهایی نوین برای معرفی وب سایت از طریق بهینه سازی seo و شبکه های اجتماعی تلاش می نماید تا تجربه ای منحصر به فرد برای کاربران و مشتریان خود در فضای مجازی ایجاد نماید.
 </p>
 
@@ -317,7 +317,7 @@ export default function Body() {
 <div className="w-full h-[760px]  flex flex-wrap justify-between flex-row-reverse  ">
 <div className=" relative  w-[60%] h-[750px] max-mtablet:h-[400px]  flex top-[16px]  " >
 {/* avali */}
-<div className="absolute w-[319px] h-[176px] bg-white  left-40 z-20 top-[70%] 
+<div className="absolute w-[319px] h-[176px] bg-white/30 backdrop-blur-md  left-40 z-20 top-[70%] 
 max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] max-mtablet:top-[70%] shadow-mybox p-[15px] ">
 
 <p className="font-bold text-[24px] text-black   max-mtablet:text-[14px] ">پشتیبانی سریع</p>
@@ -333,7 +333,7 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 
 
 {/*  dovom  */}   
-<div className="absolute w-[319px] h-[176px] bg-white  left-60 z-20 top-[40%] max-mtablet:w-[282px] max-mtablet:h-[117px]  max-mtablet:left-20 max-mtablet:top-[35%] shadow-mybox rounded-[5px]  p-[15px] ">
+<div className="absolute w-[319px] h-[176px] bg-white/30 backdrop-blur-md  left-60 z-20 top-[40%] max-mtablet:w-[282px] max-mtablet:h-[117px]  max-mtablet:left-20 max-mtablet:top-[35%] shadow-mybox rounded-[5px]  p-[15px] ">
 <p className="font-bold text-[24px] text-black  max-mtablet:text-[14px] ">تیم حرفه ایی</p>
 
 <p className="font-normal text-[16px] leading-[25px] max-mtablet:text-[14px] ">مهم ترین نکته ی موجود در یک شرکت طراحی سایت ،تیم متخصص با تجربه و اطلاعات بروز آن است.</p>
@@ -343,7 +343,7 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 
 {/* sovom */}
 
-<div className="absolute w-[319px] h-[176px] bg-white left-40 z-20 top-[10%] max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10   rounded-[5px] max-mtablet:top-[2%] shadow-mybox  p-[15px] ">
+<div className="absolute w-[319px] h-[176px] bg-white/30 backdrop-blur-md left-40 z-20 top-[10%] max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10   rounded-[5px] max-mtablet:top-[2%] shadow-mybox  p-[15px] ">
 
 
 <p className="font-bold text-[24px] text-black   max-mtablet:text-[14px]">قیمت های مقرون به صرفه</p>
