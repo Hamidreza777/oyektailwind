@@ -23,7 +23,7 @@ export default function Call() {
 
 
 
-<div className="w-[80%] ml-[-0] h-[508px] border-8 border-avaliye mx-auto  relative  z-10   max-mtablet:h-[150px]  max-desktop:h-[300px] " >
+<div className="w-[80%] ml-[-0] h-[508px] border-8 border-avaliye mx-auto  relative  z-10   max-mtablet:h-[150px]  max-desktop:h-[300px] max-mtablet:border-4    " >
 
 <div className="mx-auto flex  w-[440px] h-50px  items-center mt-[10%] max-desktopl:w-[300px]  max-desktopl:ml-[15%] max-desktopl:mt-[20%] max-desktop:mt-[10%] max-mtablet:w-[170px] max-mtablet:mr-[32%] max-mtablet:mt-[5%] " >
 <IoLocationOutline className="text-[25px] text-avaliye ml-[5%]   " />
