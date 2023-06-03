@@ -5,22 +5,30 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import Logo from "../../assets/pic/logo2.png";
 import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
+import { document } from "postcss";
 
 
 
 export default function Header() {
-const[Menu,setMenu]=useState("hidden")
 
+
+/*   var classes = cx({
+    'overlay': true,
+    'overlay-slidedown': true,
+    'open': this.props.isOpen
+ }); */
 
 
 
 
   return (
     <>
+
+
       <header className="flex h-[4.875rem] w-full bg-sanaviye items-center justify-center fixed z-50">
         <nav className="flex flex-row items-center justify-between w-[85%] h-full tablet:w-[85%] transition ease-in-out delay-100 max-desktop:justify-between">
       
-        <RxHamburgerMenu className="text-[26px] desktop:hidden max-desktop:flex max-desktop:order-1"/>
+        <RxHamburgerMenu    className="text-[26px] desktop:hidden max-desktop:flex max-desktop:order-1"/>
          
           <img className="h-[36px] max-desktop:order-3 max-desktop:ml-[10%]" src={Logo} alt="" />
 
@@ -68,9 +76,9 @@ const[Menu,setMenu]=useState("hidden")
 
       </header>
 
-<div className="w-full h-[324px] z-50 bg-white   hidden max-desktop:block   "  >
+<div className="w-full h-[324px] z-50 bg-white   hidden   "  >
 
-<ul className="pt-[25%]  h-full items-center mr-[5%] ">
+<ul className="  h-full items-center mr-[5%] max-desktop:pt-[15%] max-mtablet:pt-[30%] ">
             <li className=" w-[30%]  hover:text-avaliye hover:border-b-[2px] hover:border-avaliye hover:transition ease-in-out delay-100">
               <Link to="/">صفحه اصلی</Link>
             </li>
@@ -94,7 +102,6 @@ const[Menu,setMenu]=useState("hidden")
       <Outlet />
 
   
-
 
 
     </>
