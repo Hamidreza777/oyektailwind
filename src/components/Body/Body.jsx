@@ -60,7 +60,7 @@ export default function Body() {
         
 
       <div className="w-[85%] mx-auto grid grid-cols-2 place-items-center gap-2 mt-[-18%] desktop:flex desktop:justify-between desktop:mt-[-13%] ">
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox  bg-white grid place-items-center">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox  bg-white grid place-items-center ">
 <img className="h-[72px] w-[72px]" src={dising} alt="" />
 
 
