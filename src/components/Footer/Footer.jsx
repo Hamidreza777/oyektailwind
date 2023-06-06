@@ -43,7 +43,7 @@ const Footer = () => {
 
 <div className='flex items-center mt-[39px]  '> 
 <IoLocationOutline className=' mr-[10%] mt-[4px] text-avaliye text-[25px]  ' />
-<p> کرج، کیانمهر، بلوار کشاورز، بلوار ولیعصر، بلوک 2</p>
+<p> کرج،مهرشهر کیانمهر، بلوار کشاورز، بلوار ولیعصر، بلوک 2</p>
 
 </div>
  

@@ -55,71 +55,94 @@ export default function Body() {
       </div>
 
       <div className="flex justify-center">
-      <p className="text-[16px] text-avaliye font-bold mt-[-30%] desktop:mt-[-20%]" >خدمات اُیک</p>
+      <p className="text-[36px] text-avaliye font-bold mt-[-30%] desktop:mt-[-15%] max-mtablet:text-[24px]  " >خدمات اُیک</p>
       </div>
         
 
-      <div className="w-[85%] mx-auto grid grid-cols-2 place-items-center gap-2 mt-[-18%] desktop:flex desktop:justify-between desktop:mt-[-13%] ">
+      <div className="w-[85%] mx-auto grid grid-cols-2 place-items-center gap-2 mt-[-18%] desktop:flex desktop:justify-between desktop:mt-[-7%] ">
+
+
+
+      <Link to="/Webdesing">
         <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox  bg-white grid place-items-center ">
 <img className="h-[72px] w-[72px]" src={dising} alt="" />
 
 
-<Link to="/Khadamat">
 <p className="text-[14px] font-bold">طراحی سایت</p>
 
-</Link>
+
 
 
         </div>
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white/30 backdrop-blur-md grid place-items-center desktop:mb-[-13%]">
+   
+        </Link>
+
+
+        <Link to="/Ui" className="desktop:mb-[-7%]"  > 
+
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center ">
 
 <img className="h-[72px] w-[72px]" src={ui} alt="" />
 
-
-
-              <Link to="/Khadamat"> <p className="text-[14px] font-bold ">رابط و تجربه کاربری</p> </Link>
-      
-
+<p className="text-[14px] font-bold ">رابط و تجربه کاربری</p>
 
         </div>
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white/30 backdrop-blur-md grid place-items-center desktop:mb-[-23%]">
+
+        </Link>
+
+
+        <Link to="/Application" className="desktop:mb-[-10%]"  >
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white backdrop-blur-md grid place-items-center ">
 
 <img  className="h-[72px] w-[72px]" src={webapp} alt="" />
 
 
-<Link to="/Khadamat"> <p className="text-[14px] font-bold">وب اپلیکشن</p> </Link>
+ <p className="text-[14px] font-bold">وب اپلیکیشن</p>
 
 
 
 
         </div>
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-23%]  ">
+        </Link>
+
+
+        <Link to="/Mohtava" className="desktop:mb-[-10%] " >
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center  ">
 
 <img  className="h-[72px] w-[72px]   " src={mohtava} alt="" />
 
 
-<Link to="/Khadamat"><p className="text-[14px] font-bold">تولید محتوا</p> </Link>
+<p className="text-[14px] font-bold">تولید محتوا</p>
 
 
         </div>
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center desktop:mb-[-13%]">
+        </Link>
+
+
+
+        <Link to="/Adds" className="desktop:mb-[-7%]"  >
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center ">
 
 <img  className="h-[72px] w-[72px]" src={ads} alt="" />
 
-
-<Link to="/Khadamat"><p className="text-[14px] font-bold">تبلیغات گوگل </p></Link>
+<p className="text-[14px] font-bold">تبلیغات گوگل </p>
 
 
         </div>
+        </Link>
+
+
+        <Link to="/Seo">
+
         <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center">
 
 <img  className="h-[72px] w-[72px]" src={seo} alt="" />
 
 
-<Link to="/Khadamat"> <p className="text-[14px] font-bold">سئو</p> </Link>
+ <p className="text-[14px] font-bold">سئو</p> 
 
         </div>
-
+        </Link>
 
       </div>
 

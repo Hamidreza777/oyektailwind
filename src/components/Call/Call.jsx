@@ -27,7 +27,7 @@ export default function Call() {
 
 <div className="mx-auto flex  w-[440px] h-50px  items-center mt-[10%] max-desktopl:w-[300px]  max-desktopl:ml-[15%] max-desktopl:mt-[20%] max-desktop:mt-[10%] max-mtablet:w-[170px] max-mtablet:mr-[32%] max-mtablet:mt-[5%] " >
 <IoLocationOutline className="text-[25px] text-avaliye ml-[5%]   " />
-<p className=" text-[20px]  max-mtablet:text-[13px]   " >کرج، کیانمهر، بلوار کشاورز، بلوار ولیعصر، بلوک 2</p>
+<p className=" text-[20px]  max-mtablet:text-[13px]   " >کرج، مهرشهر کیانمهر، بلوار کشاورز، بلوار ولیعصر، بلوک 2</p>
 
 </div>
 
@@ -45,19 +45,40 @@ export default function Call() {
 </div>
 
 
+</div>
+    </div>
+
+
+<div className="w-full h-[369px] bg-avaliye mt-[168px] relative -z-10 " >
+
+<p className="flex justify-center pt-[63px] text-white font-bold text-[24px] max-mtablet:text-[16px] "  >برای مشاوره رایگان لطفا شماره خود را وارد نمایید 
+  <br />
+  <br />
+همکاران ما در اسرع وقت با شما تماس خواهند گرفت.</p>
 
 
 
+</div>
+ 
 
+<div className=" w-[85%] h-[369px] bg-white  mx-auto flex justify-center z-40 mt-[-10%] border-4 border-sanaviye items-center flex-col max-mtablet:mt-[-30%] "  >
+
+<div className="bg-sanaviye h-[100px] w-[669px] items-center  flex justify-center rounded-[5px] max-desktop:w-[500px] max-mtablet:w-[250px] max-mtablet:h-[50px]  "  >
+
+<input placeholder="به عنوان مثال:09120000000"  type="text" className="w-[210px] h-[35px] bg-sanaviye  " />
+
+</div>
+
+
+<button className="mt-[40px] bg-avaliye text-white w-[143px] h-[39px] rounded-[10px]   "  >ثبت  شماره تلفن</button>
 
 
 
 
 </div>
 
+<div className="mt-[50%]" ></div>
 
-
-    </div>
     </>
   )
 }
