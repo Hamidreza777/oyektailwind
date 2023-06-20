@@ -14,6 +14,8 @@ import Applicaton from "./components/Application/Applicaton.jsx";
 import Mohtava from "./components/Mohtava/Mohtava.jsx";
 import Adds from "./components/Adds/Adds.jsx";
 import Seo from "./components/Seo/Seo.jsx";
+import Error from "./components/404/Error.jsx";
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -32,7 +34,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           <Route path="Mohtava" element={<Mohtava/>} />
           <Route path="Adds" element={<Adds/>} />
           <Route path="Seo" element={<Seo/>} />
-
+          <Route path="*" element={<Error />} />
 
         </Route>
       </Routes>

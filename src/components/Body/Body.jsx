@@ -74,7 +74,6 @@ export default function Body() {
 
 
         </div>
-   
         </Link>
 
 
@@ -188,7 +187,7 @@ export default function Body() {
 
 <div  className="h-[352px] w-[237px] bg-gradient-to-t from-white to-cyan-200  mt-[10px] rounded-t-[150px]  flex items-center justify-center flex-col">
 
-<img className="h-[88px] w-[88px]   " src={pic1} alt="" />
+<img className="h-[88px] w-[88px] mb-[-1%]  " src={pic1} alt="" />
 <p className="text-[14px] font-bold mt-[5%] ">
 دریافت خلاصه پروژه
 </p>
@@ -199,7 +198,7 @@ export default function Body() {
 
 </div>
 <div className="h-[352px] w-[237px] bg-gradient-to-t from-white to-orange-200 mt-[10px]  rounded-t-[150px]  flex items-center justify-center flex-col">
-<img className="h-[88px] w-[60.6px]   " src={pic2} alt="" />
+<img className="h-[88px] w-[60.6px] mt-[-40%]   " src={pic2} alt="" />
 <p className="text-[14px] font-bold mt-[5%] ">
 ارائه نسخه اولیه
 </p>
@@ -210,7 +209,7 @@ export default function Body() {
 
 </div>
 <div className="h-[352px] w-[237px] bg-gradient-to-t from-white to-green-200  mt-[10px]  rounded-t-[150px]  flex items-center justify-center flex-col ">
-<img className="h-[100px] w-[72px]   " src={pic3} alt="" />
+<img className="h-[100px] w-[72px] mt-[-20%]   " src={pic3} alt="" />
 <p className="text-[14px] font-bold mt-[5%] ">
 ارائه نسخه نهایی
 
@@ -400,10 +399,10 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 
 
 
-<div className=" relative  w-[550px] h-[760px] flex mx-auto  max-desktopl:w-[400px] max-desktop:w-[90%] max-desktop:h-[230px]  max-mtablet:right-0  ">
+<div className=" relative  w-[550px] h-[760px] flex mx-auto  max-desktopl:w-[400px] max-desktop:w-[90%] max-desktop:h-[230px]  max-mtablet:right-0 ">
 
-<p className=" absolute w-[450px] h-[326px] font-normal text-[16px] top-[40%]   max-desktopl:w-[300px] max-desktopl:right-20  max-desktopl:top-[35%] max-desktop:top-[5%] max-desktop:w-[70%] max-desktop:h-[200px]    leading-[25px]  max-desktop:right-14  max-mtablet:w-[100%] max-mtablet:right-2  " >
-از آنجا که طراحی سایت با استفاده از روشها و فنون متفاوتی انجام می شود نکات قابل تو جهی که در میزان دانش و تجارت حرفه ای در زمینه های گوناگون  <br/> web desing ، کیفیت پیاده سازی مطالب ،قابلیت انعطاف پذیری وب سایت، زمان تحویل پروژه، بررسی محتوای قابل اجرا ،سئو تخصصی ونحوه پشتیبانی  پروژه وجود دارد، باعث تفاوت در نتیجه ی کار طراحان oyek خواهد بود.
+<p className=" absolute w-[480px] h-[326px] font-normal text-[16px] top-[40%]   max-desktopl:w-[320px] max-desktopl:right-20  max-desktopl:top-[35%] max-desktop:top-[5%] max-desktop:w-[70%] max-desktop:h-[200px]    leading-[25px]  max-desktop:right-14  max-mtablet:w-[100%] max-mtablet:right-2 " >
+از آنجا که طراحی سایت با استفاده از روشها و فنون متفاوتی انجام می شود نکات قابل تو جهی که در میزان دانش و تجارت حرفه ای در زمینه های گوناگون   web desing ، کیفیت پیاده سازی مطالب ،قابلیت انعطاف پذیری وب سایت، زمان تحویل پروژه، بررسی محتوای قابل اجرا ،سئو تخصصی ونحوه پشتیبانی  پروژه وجود دارد، باعث تفاوت در نتیجه ی کار طراحان oyek خواهد بود.
 
 </p>
 
@@ -416,7 +415,7 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 </div>
 
 
-<p className="  mt-[70px]  text-avaliye font-bold text-[24px]  flex justify-center  " >برخی از نمونه کار های اُیک</p>
+<p className="  mt-[70px]  text-avaliye font-bold text-[24px]  flex justify-center max-desktop:mt-[300px]  max-mtablet:mt-[70px]  " >برخی از نمونه کار های اُیک</p>
 
 
 <div className="w-[95%]  mx-auto flex

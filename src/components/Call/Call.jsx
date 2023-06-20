@@ -61,7 +61,7 @@ export default function Call() {
 </div>
  
 
-<div className=" w-[85%] h-[369px] bg-white  mx-auto flex justify-center z-40 mt-[-10%] border-4 border-sanaviye items-center flex-col max-mtablet:mt-[-30%] "  >
+<div className=" w-[85%] h-[369px] bg-white  mx-auto flex justify-center z-40 mt-[-10%] border-4 border-sanaviye items-center flex-col max-mtablet:mt-[-30%] rounded-[5px] "  >
 
 <div className="bg-sanaviye h-[100px] w-[669px] items-center  flex justify-center rounded-[5px] max-desktop:w-[500px] max-mtablet:w-[250px] max-mtablet:h-[50px]  "  >
 

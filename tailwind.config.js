@@ -14,6 +14,13 @@ export default {
     extend: {
       boxShadow:{
         mybox:'0px 0px 10px #aeaeae',
+      
+      
+      },
+      boxShadow:{
+        myshadow:'0px 0px 4px 5px  #f1ebfd',
+
+
       }
 ,
       colors: {
