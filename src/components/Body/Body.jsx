@@ -340,7 +340,7 @@ export default function Body() {
 <div className=" relative  w-[60%] h-[750px] max-mtablet:h-[400px]  flex top-[16px]  " >
 {/* avali */}
 <div className="absolute w-[319px] h-[176px] bg-white  left-40 z-20 top-[70%] 
-max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] max-mtablet:top-[70%] shadow-mybox p-[15px] ">
+max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] max-mtablet:top-[70%] shadow-myshadow  p-[15px] ">
 
 <p className="font-bold text-[24px] text-black   max-mtablet:text-[14px] ">پشتیبانی سریع</p>
 
@@ -355,7 +355,7 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 
 
 {/*  dovom  */}   
-<div className="absolute w-[319px] h-[176px] bg-white left-60 z-20 top-[40%] max-mtablet:w-[282px] max-mtablet:h-[117px]  max-mtablet:left-20 max-mtablet:top-[35%] shadow-mybox rounded-[5px]  p-[15px] ">
+<div className="absolute w-[319px] h-[176px] bg-white left-60 z-20 top-[40%] max-mtablet:w-[282px] max-mtablet:h-[117px]  max-mtablet:left-20 max-mtablet:top-[35%] shadow-myshadow  rounded-[5px]  p-[15px] ">
 <p className="font-bold text-[24px] text-black  max-mtablet:text-[14px] ">تیم حرفه ایی</p>
 
 <p className="font-normal text-[16px] leading-[25px] max-mtablet:text-[14px] ">مهم ترین نکته ی موجود در یک شرکت طراحی سایت ،تیم متخصص با تجربه و اطلاعات بروز آن است.</p>
@@ -365,7 +365,7 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 
 {/* sovom */}
 
-<div className="absolute w-[319px] h-[176px] bg-white left-40 z-20 top-[10%] max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10   rounded-[5px] max-mtablet:top-[2%] shadow-mybox  p-[15px] ">
+<div className="absolute w-[319px] h-[176px] bg-white left-40 z-20 top-[10%] max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10   rounded-[5px] max-mtablet:top-[2%] shadow-myshadow  p-[15px] ">
 
 
 <p className="font-bold text-[24px] text-black   max-mtablet:text-[14px]">قیمت های مقرون به صرفه</p>
