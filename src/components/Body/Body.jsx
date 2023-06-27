@@ -64,7 +64,7 @@ export default function Body() {
 
 
       <Link to="/Webdesing">
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox  bg-white grid place-items-center ">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-myshadow  bg-white grid place-items-center ">
 <img className="h-[72px] w-[72px]" src={dising} alt="" />
 
 
@@ -79,7 +79,7 @@ export default function Body() {
 
         <Link to="/Ui" className="desktop:mb-[-7%]"  > 
 
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center ">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-myshadow bg-white grid place-items-center ">
 
 <img className="h-[72px] w-[72px]" src={ui} alt="" />
 
@@ -91,7 +91,7 @@ export default function Body() {
 
 
         <Link to="/Application" className="desktop:mb-[-10%]"  >
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white backdrop-blur-md grid place-items-center ">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-myshadow bg-white backdrop-blur-md grid place-items-center ">
 
 <img  className="h-[72px] w-[72px]" src={webapp} alt="" />
 
@@ -106,7 +106,7 @@ export default function Body() {
 
 
         <Link to="/Mohtava" className="desktop:mb-[-10%] " >
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center  ">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-myshadow bg-white grid place-items-center  ">
 
 <img  className="h-[72px] w-[72px]   " src={mohtava} alt="" />
 
@@ -120,7 +120,7 @@ export default function Body() {
 
 
         <Link to="/Adds" className="desktop:mb-[-7%]"  >
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center ">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-myshadow bg-white grid place-items-center ">
 
 <img  className="h-[72px] w-[72px]" src={ads} alt="" />
 
@@ -133,7 +133,7 @@ export default function Body() {
 
         <Link to="/Seo">
 
-        <div className="h-[128px] w-[128px] rounded-[5px] shadow-mybox bg-white grid place-items-center">
+        <div className="h-[128px] w-[128px] rounded-[5px] shadow-myshadow bg-white grid place-items-center">
 
 <img  className="h-[72px] w-[72px]" src={seo} alt="" />
 
