@@ -140,10 +140,31 @@ else {
             />
           </div>
 
-          <div className="flex flex-row items-center max-desktop:order-4">
+         {/*  <div className="flex flex-row items-center max-desktop:order-4">
             <IoCallOutline className="transform rotate-[260deg] text-[22px] text-avaliye" />
             <a href="tel:02691010710"  className="flex flex-row-reverse" >۷۱۰ ۱۰ ۹۱۰ ۰۲۶</a>
+            <br />
+            <IoCallOutline className="transform rotate-[260deg] text-[22px] text-avaliye" />
+            <a href="tel:02691010710"  className="flex flex-row-reverse" >۷۱۰ ۱۰ ۹۱۰ ۰۲۶</a>
+          </div> */}
+          
+       <div className="w-[15%] h-full  max-desktopl:w-[20%]  max-desktop:order-4 max-mtablet:w-[50%] max-mtablet:h-[60%] " >
+
+          <div className="w-full h-[50%]  flex items-center justify-around  "  >
+
+          <IoCallOutline className="transform rotate-[260deg] text-[22px] text-avaliye  max-mtablet:text-[18px] mt-[15%] " />
+            <a href="tel:02691010710"  className="flex flex-row-reverse max-mtablet:text-[12px]" >۷۱۰ ۱۰ ۹۱۰ ۰۲۶</a>
+
+
           </div>
+
+          <div className="w-full h-[50%]  flex items-center justify-around  "  >
+
+          {/* <IoCallOutline className="transform rotate-[260deg] text-[22px] text-avaliye  max-mtablet:text-[16px]" /> */}
+            <a href="tel:09220136476"  className="flex flex-row-reverse max-mtablet:text-[12px] ml-[-30%]  " > ۷۶ ۶۴ ۰۱۳ ۰۹۲۲</a>
+          </div>
+
+       </div>
 
 
           
