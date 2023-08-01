@@ -28,6 +28,10 @@ import { Link} from "react-router-dom";
 
 import { HiOutlineArrowSmallLeft } from "react-icons/hi2";
 
+import buran from '../../assets/pic/buran.png';
+import buran1 from '../../assets/pic/buran1.png';
+import garnet from '../../assets/pic/garnet.png';
+import fatahi from '../../assets/pic/fatahi.png';
 
 
 
@@ -418,21 +422,23 @@ max-mtablet:w-[282px] max-mtablet:h-[117px] max-mtablet:left-10 rounded-[5px] ma
 <p className="  mt-[70px]  text-avaliye font-bold text-[24px]  flex justify-center max-desktop:mt-[300px]  max-mtablet:mt-[70px]  " >برخی از نمونه کار های اُیک</p>
 
 
-<div className="w-[95%]  mx-auto flex
+<div className="w-[85%]  mx-auto flex
 justify-between gap-3 mt-[56px] "   >
 
 {/* avali */}
 <div>
-<img src={sard} alt="" />
 
 
+<a href="https://sardkaraj.com/"> <img src={sard} alt="" /> </a>
 </div>
 
 {/* domvomi */}
 
 <div>
 
-<img src={amoozesh} alt="" />
+
+
+<a href="http://amoozeshkadeh.com/"><img src={amoozesh} alt="" /></a>
 
 </div>
 
@@ -442,28 +448,32 @@ justify-between gap-3 mt-[56px] "   >
 
 <div>
 
-<img src={khavian} alt="" className="w-[338px]  " />
+
+
+<a href="https://sgkavian.com/"> <img src={khavian} alt="" className="w-[338px]  " />  </a>
+
+</div>
+
+
+
 
 
 </div>
 
-
-
-
-
-</div>
-
-<div className="w-[95%]  mx-auto flex
-justify-between gap-3 mt-[7px] "   >
+<div className="w-[85%]  mx-auto flex
+justify-between  mt-[4%] gap-3 "   >
 
 <div>
-<img src={sard2} alt="" />
+{/* <img src={sard2} alt="" /> */}
 
+<a href="https://sardkaraj.com/about/"><img src={sard2} alt="" />  </a>
 
 </div>
 
 <div>
-<img src={sard3} alt="" />
+{/* <img src={sard3} alt="" /> */}
+
+<a href="https://www.buranservicekaraj.com/%d9%85%d9%86%d8%a7%d8%b7%d9%82-%d8%aa%d8%ad%d8%aa-%d9%be%d9%88%d8%b4%d8%b4/"> <img src={buran} alt="" />  </a>
 
 </div>
 
@@ -472,7 +482,60 @@ justify-between gap-3 mt-[7px] "   >
 
 </div>
 
-<ul>
+
+{/* sectio2 */}
+
+<div className="w-[85%]  mx-auto flex
+justify-between gap-3 mt-[4%] "   >
+
+{/* avali */}
+<div>
+
+
+<a href="https://www.buranservicekaraj.com/"> <img src={buran1} alt=""  /> </a> 
+
+</div>
+
+{/* domvomi */}
+<div>
+
+
+
+
+<a href="https://garnetmezon.com/"><img src={garnet} alt="" /></a>
+
+</div>
+
+
+
+{/* sevomi */}
+
+<div>
+
+
+
+<a href="http://fattahijewelry.ir/"> <img src={fatahi} alt="" className="w-[338px]  " />  </a>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <ul>
 <li  >
 
 <Link to="/Khadamat" >
@@ -493,7 +556,7 @@ justify-between gap-3 mt-[7px] "   >
 
 </li>
 
-</ul>
+</ul> */}
 
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 import app from '../../assets/pic/APPLECATION.png';
 import app1 from '../../assets/aks/app1.jpg';
-import app2 from '../../assets/aks/app2.jpg'
+import app2 from '../../assets/aks/app2.png'
 
 const Applicaton = () => {
     return (
