@@ -14,15 +14,11 @@ export default {
     extend: {
       boxShadow:{
         mybox:'0px 0px 10px #aeaeae',
-      
-      
       },
       boxShadow:{
         myshadow:'0px 0px 4px 5px  #f1ebfd',
 
-
-      }
-,
+      },
       colors: {
         avaliye: "#7636ed",
         sanaviye: "#f1ebfd",
@@ -30,6 +26,11 @@ export default {
       height: {
         78: "4.875rem",
       },
+   
+        backgroundImage: {
+          'hero-pattern': "url('/src/assets/aks/404.jpg')",
+          
+        },
     },
   },
   plugins: [],
