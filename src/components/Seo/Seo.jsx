@@ -1,5 +1,5 @@
 import React from 'react';
-import seo from "../../assets/pic/seo1.png";
+import seo from "../../assets/pic/seo.png";
 
 import seo1 from '../../assets/aks/seo1.jpg';
 
