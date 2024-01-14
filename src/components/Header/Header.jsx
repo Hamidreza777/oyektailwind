@@ -141,11 +141,11 @@ else {
             <div className="w-full h-[50%]  flex items-center justify-around  ">
               {/* <IoCallOutline className="transform rotate-[260deg] text-[22px] text-avaliye  max-mtablet:text-[16px]" /> */}
               <a
-                href="tel:09901827149"
+                href="tel:09220136476"
                 className="flex flex-row-reverse max-mtablet:text-[12px] ml-[-30%]  "
               >
                
-              ۴۹ ۷۱ ۱۸۲ ۰۹۹۰
+              ۴۷۶ ۰۱۳۶ ۰۹۲۲
               </a>
             </div>
           </div>
