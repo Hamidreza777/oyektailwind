@@ -16,26 +16,23 @@ import Adds from "./components/Adds/Adds.jsx";
 import Seo from "./components/Seo/Seo.jsx";
 import Error from "./components/404/Error.jsx";
 
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />}>
           <Route path="/" element={<Body />} />
-
-        <Route path="Khadamat" element={<Khadamat />} />
+          <Route path="Khadamat" element={<Khadamat />} />
           <Route path="Amoozesh" element={<Amoozesh />} />
           <Route path="Call" element={<Call />} />
           <Route path="About" element={<About />} />
           <Route path="Webdesing" element={<Webdesing />} />
-          <Route path="Ui" element={<Ui/>} />
-          <Route path="Application" element={<Applicaton/>} />
-          <Route path="Mohtava" element={<Mohtava/>} />
-          <Route path="Adds" element={<Adds/>} />
-          <Route path="Seo" element={<Seo/>} />
+          <Route path="Ui" element={<Ui />} />
+          <Route path="Application" element={<Applicaton />} />
+          <Route path="Mohtava" element={<Mohtava />} />
+          <Route path="Adds" element={<Adds />} />
+          <Route path="Seo" element={<Seo />} />
           <Route path="*" element={<Error />} />
-
         </Route>
       </Routes>
     </BrowserRouter>

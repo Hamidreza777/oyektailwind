@@ -27,7 +27,7 @@ import sard2 from "../../assets/pic/sard2.png";
 import sard3 from "../../assets/pic/sard3.png";
 
 import { Link } from "react-router-dom";
-
+import { Helmet } from "react-helmet";
 import { HiOutlineArrowSmallLeft } from "react-icons/hi2";
 
 import buran from "../../assets/pic/buran.png";
@@ -42,6 +42,10 @@ import rozita2 from "../../assets/pic/rozita2.png";
 export default function Body() {
   return (
     <>
+      <Helmet>
+        <title>طراحی سایت و سئو</title>
+      </Helmet>
+
       <div className="flex flex-wrap w-full h-[750px] desktop:h-[950px] bg-sanaviye rounded-b-[30%] justify-center">
         <div className="flex items-center justify-between w-[85%] h-[40%] desktop:h-[70%] mt-[5%]">
           <p className="text-[16px] text-avaliye font-bold desktop:text-[37px] desktop:mt-[-50%] tablet:mt-[-38%] desktopl:mt-[-30%]">
@@ -389,16 +393,15 @@ justify-between gap-3 mt-[56px] "
           </a>
         </div>
       </div>
-{/* rozita-sherafati */}
+      {/* rozita-sherafati */}
 
-<div
+      <div
         className="w-[85%]  mx-auto flex
 justify-between gap-3 mt-[56px] "
       >
         {/* avali */}
         <div>
           <a href="https://dr-rozitasherafati.com/">
-            
             <img src={rozita} alt="" />
           </a>
         </div>
@@ -420,19 +423,6 @@ justify-between gap-3 mt-[56px] "
           </a>
         </div>
       </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       <div
         className="w-[85%]  mx-auto flex
@@ -485,9 +475,6 @@ justify-between gap-3 mt-[4%] "
             <img src={fatahi} alt="" className="w-[338px]  " />{" "}
           </a>
         </div>
-
-
-
       </div>
 
       {/* <ul>
